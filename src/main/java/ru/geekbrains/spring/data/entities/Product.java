@@ -24,7 +24,7 @@ public class Product {
 
     @ManyToMany
     @JoinTable(
-            name = "products_users",
+            name = "card",
             joinColumns = @JoinColumn(name = "product_id"),
             inverseJoinColumns = @JoinColumn(name = "user_id")
     )
